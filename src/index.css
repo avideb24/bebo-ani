@@ -10,3 +10,7 @@ body{
 .container{
   @apply max-w-7xl mx-auto;
 }
+
+.button{
+  @apply px-4 py-1 border border-slate-400 rounded-full;
+}
