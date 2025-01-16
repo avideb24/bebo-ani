@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #fff;
+  color: #000;
+}
+
+.container{
+  @apply max-w-7xl mx-auto;
+}
