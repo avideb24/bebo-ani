@@ -1,3 +1,3 @@
 # BEBO
-A animated template
+An animated template
 
