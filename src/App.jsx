@@ -5,6 +5,8 @@ import Featured from './components/Featured'
 import Marqee from './components/Marqee'
 import Navbar from './components/Navbar'
 import LocomotiveScroll from 'locomotive-scroll';
+import ReadyToStart from './components/ReadyToStart'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <About />
       <Eyes />
       <Featured />
+      <ReadyToStart />
+      <Footer />
     </div>
   )
 }

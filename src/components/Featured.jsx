@@ -20,7 +20,7 @@ const Featured = () => {
 
 
     return (
-        <div className="relative z-10 bg-white py-10">
+        <div data-scroll data-scroll-speed="-0.2" className="relative z-10 bg-white py-10">
             <div className="container">
                 <h2 className="text-6xl py-10 border-b-2 border-b-slate-400 mb-10">Featured Projects</h2>
 
