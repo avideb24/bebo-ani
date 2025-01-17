@@ -1,6 +1,7 @@
-import { FiExternalLink } from "react-icons/fi";
 import bannerVector from '../assets/banner-vector.jpg';
 import { motion } from "motion/react";
+import ButtonPrimary from "./Shared/ButtonPrimary";
+import { RxExternalLink } from "react-icons/rx";
 
 
 const Banner = () => {
@@ -21,10 +22,7 @@ const Banner = () => {
                 <div className="flex justify-between items-center border-t-2 border-t-slate-400 py-4">
                     <p>For public and private companies</p>
                     <p>From the first pitch to IPO</p>
-                    <div className="flex items-center gap-2">
-                        <button className="px-4 py-1 border border-slate-400 rounded-full">Start Project</button>
-                        <button className="px-2 py-2 border border-slate-400 rounded-full"><FiExternalLink /></button>
-                    </div>
+                    <ButtonPrimary text={'Start Project'} icon={RxExternalLink} />
                 </div>
             </div>
         </div>

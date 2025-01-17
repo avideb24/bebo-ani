@@ -1,3 +1,5 @@
+import ButtonPrimary from "./Shared/ButtonPrimary";
+import { RxExternalLink } from "react-icons/rx";
 
 
 const ReadyToStart = () => {
@@ -6,7 +8,9 @@ const ReadyToStart = () => {
             <h1 className="tracking-tight leading-[170px]">ready</h1>
             <h1 className="tracking-tight leading-[170px]">to start</h1>
             <h1 className="tracking-tight leading-[170px]">the project?</h1>
-            <button className="button text-sm font-normal capitalize mt-10">start the project</button>
+            <div className="mt-8">
+                <ButtonPrimary text={'Start The Project'} icon={RxExternalLink} />
+            </div>
         </div>
     );
 };

@@ -3,6 +3,7 @@ import projectImg1 from '../assets/project1.png';
 import projectImg2 from '../assets/project2.png';
 import { GoDotFill } from "react-icons/go";
 import { motion } from 'motion/react';
+import ButtonSecondary from './Shared/ButtonSecondary';
 
 const Featured = () => {
     const [hoveredProject, setHoveredProject] = useState('');
@@ -20,7 +21,7 @@ const Featured = () => {
 
 
     return (
-        <div data-scroll data-scroll-speed="-0.2" className="relative z-10 bg-white py-10">
+        <div data-scroll data-scroll-speed="-0.2" className="relative z-10 bg-white pt-10 pb-20">
             <div className="container">
                 <h2 className="text-6xl py-10 border-b-2 border-b-slate-400 mb-10">Featured Projects</h2>
 
@@ -48,9 +49,9 @@ const Featured = () => {
                             <img src={projectImg1} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
                         </div>
                         <div className='flex items-center gap-3 py-3'>
-                            <button className='button uppercase'>Branded template</button>
-                            <button className='button uppercase'>sales deck</button>
-                            <button className='button uppercase'>social media templates</button>
+                            <ButtonSecondary text={'Branded template'} />
+                            <ButtonSecondary text={'sales deck'} />
+                            <ButtonSecondary text={'social media templates'} />
                         </div>
                     </div>
                     <div
@@ -65,7 +66,7 @@ const Featured = () => {
                             <img src={projectImg2} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
                         </div>
                         <div className='flex items-center gap-3 py-3'>
-                            <button className='button uppercase'>pitch deck</button>
+                            <ButtonSecondary text={'pitch deck'} />
                         </div>
                     </div>
                 </div>
