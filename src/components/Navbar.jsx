@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png';
 import ButtonSecondary from "./Shared/ButtonSecondary";
 import ButtonPrimary from "./Shared/ButtonPrimary";
 import { RiLoginCircleLine } from "react-icons/ri";
@@ -8,7 +9,10 @@ const Navbar = () => {
         <div>
             <div className="container py-5">
                 <div className="grid grid-cols-2 items-center">
-                    <h2 className="text-blue-600 font-bold text-lg">BEBO</h2>
+                    <div className="flex items-end gap-1">
+                        <img src={logo} className='w-8' alt="logo" />
+                        <h2 className="font-bold">BEBO</h2>
+                    </div>
                     <div className="flex items-center justify-between">
                         <nav>
                             <ul className="flex items-center gap-4">

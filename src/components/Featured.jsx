@@ -37,16 +37,18 @@ const Featured = () => {
                 )}
 
                 <div className='grid grid-cols-2 items-center gap-8 relative'>
-                    <div
-                        onMouseEnter={() => handleMouseEnter('Cardboard')}
-                        onMouseLeave={handleMouseLeave}
-                        className="relative group cursor-pointer"
-                    >
-                        <h2 className='flex items-center gap-1 uppercase'>
-                            <GoDotFill /> Cardboard Spaceship
-                        </h2>
-                        <div className='group-hover:scale-95 rounded-xl duration-500 overflow-hidden'>
-                            <img src={projectImg1} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
+                    <div>
+                        <div
+                            onMouseEnter={() => handleMouseEnter('Cardboard')}
+                            onMouseLeave={handleMouseLeave}
+                            className="relative group cursor-pointer"
+                        >
+                            <h2 className='flex items-center gap-1 uppercase'>
+                                <GoDotFill /> Cardboard Spaceship
+                            </h2>
+                            <div className='group-hover:scale-95 rounded-xl duration-500 overflow-hidden'>
+                                <img src={projectImg1} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
+                            </div>
                         </div>
                         <div className='flex items-center gap-3 py-3'>
                             <ButtonSecondary text={'Branded template'} />
@@ -54,16 +56,18 @@ const Featured = () => {
                             <ButtonSecondary text={'social media templates'} />
                         </div>
                     </div>
-                    <div
-                        onMouseEnter={() => handleMouseEnter('Vise')}
-                        onMouseLeave={handleMouseLeave}
-                        className="relative group cursor-pointer"
-                    >
-                        <h2 className='flex items-center gap-1 uppercase'>
-                            <GoDotFill /> Vise
-                        </h2>
-                        <div className='group-hover:scale-95 rounded-xl duration-500 overflow-hidden'>
-                            <img src={projectImg2} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
+                    <div>
+                        <div
+                            onMouseEnter={() => handleMouseEnter('Vise')}
+                            onMouseLeave={handleMouseLeave}
+                            className="relative group cursor-pointer"
+                        >
+                            <h2 className='flex items-center gap-1 uppercase'>
+                                <GoDotFill /> Vise
+                            </h2>
+                            <div className='group-hover:scale-95 rounded-xl duration-500 overflow-hidden'>
+                                <img src={projectImg2} className='w-full h-full group-hover:scale-110 duration-500 rounded-xl mt-4 mb-1' alt="Vise" />
+                            </div>
                         </div>
                         <div className='flex items-center gap-3 py-3'>
                             <ButtonSecondary text={'pitch deck'} />

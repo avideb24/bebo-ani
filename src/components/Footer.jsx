@@ -1,4 +1,4 @@
-
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -54,7 +54,10 @@ const Footer = () => {
                 </div>
 
                 <div className="flex justify-between pt-16">
-                    <h3 className="font-bold text-lg">BEBO</h3>
+                    <div className="flex items-end gap-1">  
+                        <img src={logo} className='w-8' alt="logo" />
+                        <h2 className="font-bold">BEBO</h2>
+                    </div>
                     <p className="opacity-50">© bebo design 2025. <span className="hover:underline cursor-pointer">Legal Terms</span> </p>
                 </div>
             </div>
